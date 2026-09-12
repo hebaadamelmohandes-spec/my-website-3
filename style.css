@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins", serif;
+}
+
+body{
+    background-color: #222831;
+    align-items: end;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding:0 0.5rem;
+    max-width: 1200px;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: aqua;
+}
+
+hr {
+    opacity: 10% ;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem auto;
+    max-width: 1200px;
+}
+
+.arrow{
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+
+.herosub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.name{
+    font-size: 3rem;
+    color: white;
+}
+
+.title{
+    font-size: 4rem;
+    color: aquamarine;
+}
+
+.herobtns{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.hirme{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+     text-shadow:0px 4px 4px rgba(0, 0, 0, 0.5) ;
+}
+.AboutMy{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 5rem auto;
+max-width: 1200px;
+gap: 10rem;
+}
+.textcontainer{
+display: flex;
+flex-direction: column;
+}
+.texttitle{
+display: flex;
+align-items: center;
+gap: 5px;
+font-size: 2rem;
+}
+.aboutname{
+color: #eeeeee;
+}
+.abouttitle{
+color: #00adb5;
+}
+.aboutmepar{
+text-align: justify;
+color: rgba(238, 238, 238, 0.75);
+}
+.Works{
+background-image: url("assets/svg/background.svg");
+padding: 10rem 10rem;
+margin: 5rem 0rem;
+}
+.Workscontaine{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: left;
+margin: 5rem auto;
+max-width: 1200px;
+}
+.projecttitle{
+display: flex;
+align-items: center;
+justify-content: left;
+gap: 5px ;
+font-size: 2rem;
+}
+.Works ul{
+display: flex;
+list-style-type: none;
+align-items: center;
+justify-content: space-between;
+}
+.Works li{
+border-radius: 16px;
+background-color: rgba(57, 62, 70, 0.5);
+backdrop-filter: blur(4px);
+padding: 1rem 4rem;
+}
+.Works li img{
+width: 200px;
+height: 200px;
+object-fit: contain;
+transition: transform 0.2s;
+}
+.Works li :hover{
+transform: scale(1.5);
+}
+.Contactcontainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+gap: 2rem;
+margin: 2rem auto;
+max-width: 1200px;
+}
+.Contacttitle{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+margin-bottom: 10xp;
+font-size: 2rem;
+}
+.emailandphone{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 5rem;
+gap: 20rem;
+}
+.emailandphone h3,  .emailandphone a{
+    color: #eeeeee;
+    text-decoration: none;
+}
+.so{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 3rem;
+}
+.so a{
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+background-color: rgba(57, 62, 70, 0.5);
+backdrop-filter: blur(4px);
+padding: 1rem;
+}
+.so img{
+width: 24px;
+height: 24px;
+}
+footer{
+color: #eeeeee;
+padding: 2rem;
+text-align: center;
+}
+@media (max-width: 1023px){
+
+
+
+
+    
+}
